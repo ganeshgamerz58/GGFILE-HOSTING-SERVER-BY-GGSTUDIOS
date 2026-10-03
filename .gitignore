@@ -1,0 +1,18 @@
+# build output
+*.exe
+*.zip
+*.pdb
+obj/
+bin/
+
+# local data and secrets - never commit these
+settings.txt
+tunnel.txt
+*.log
+.env
+.trash/
+node_modules/
+
+# backups
+*.bak
+*.bak2
